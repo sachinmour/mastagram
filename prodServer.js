@@ -16,7 +16,6 @@ app.listen(port, 'localhost', function(err) {
     console.log(err);
     return;
   }
-
-  console.log(app._router.stack);
+  
   console.log('Listening at http://localhost:', port);
 });
